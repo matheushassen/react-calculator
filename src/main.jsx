@@ -1,0 +1,11 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './pages/home/App'
+import './styles/global.css'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <h1>Calculator</h1>
+    <App />
+  </React.StrictMode>
+)
